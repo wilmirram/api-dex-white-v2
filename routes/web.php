@@ -156,5 +156,3 @@ Route::get('credit-card/{id}', function ($id){
 Route::get('teste', function (){
 
 });
-
-Route::get('/test', 'TestController@show');
