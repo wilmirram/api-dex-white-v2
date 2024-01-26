@@ -12,3 +12,10 @@ docker run --rm \
     laravelsail/php82-composer:latest \
     composer install --ignore-platform-reqs
 ```
+3. Suba o seu projeto com o comando `./vendor/bin/sail up -d`
+4. Execute o comando `./vendor/bin/sail art key:generate` para criar sua nova chave de aplicação.
+5. Acesse o browser em `http://laravel.test` para conferir o resultado.
+
+*OBS.:* Verifique se no seu arquivo `hosts` existe o alias para `127.0.0.1 laravel.test`.
+
+---
