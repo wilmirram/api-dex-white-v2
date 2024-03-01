@@ -17,7 +17,7 @@ class ConfigController extends Controller
 {
     private $config;
 
-    public function __construct(Config $config)
+    fig $config)
     {
         $this->config = $config;
     }
